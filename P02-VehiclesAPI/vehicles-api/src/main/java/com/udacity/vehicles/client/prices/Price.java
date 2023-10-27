@@ -1,5 +1,8 @@
 package com.udacity.vehicles.client.prices;
 
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 import java.math.BigDecimal;
 
 /**
@@ -10,6 +13,7 @@ public class Price {
     private String currency;
     private BigDecimal price;
     private Long vehicleId;
+
 
     public Price() {
     }
